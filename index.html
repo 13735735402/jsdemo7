@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<title>用户注册</title>
+	</head>
+	<body>
+		<form id="box" action="#" method="post">
+			<h3>注册界面</h3>
+			<span>用户名：</span><input type="text" name="user"/><br />
+			<span>密码：</span><input type="password" name="password"/><br />
+			<span>密码确认：</span><input type="password" name="passwordAgain"/><br />
+			<span>性别：</span><input type="radio" name="sex" value="male"/>男<input type="radio" name="sex" value="female"/>女<br />
+			<span>爱好：</span><input type="checkbox" name="rabit" value="lanqiu"/>篮球<input type="checkbox" name="rabit" value="zuqiu"/>足球<input type="checkbox" name="rabit" value="paiqiu"/>排球<br />
+			<span>所在地：</span>
+			<select name="province" id="province" onchange="getCity()"></select>
+			<select name="city" id="city"></select><br />
+			<span>邮箱：</span><input type="email" name="email"/><br />
+			<span>网址：</span><input type="url" name="url"/><br />
+			<span>头像：</span><input type="file" name="headimg"/><br />
+			<input type="submit" value="提交" id="submit"/>
+		</form>
+	</body>
+	<script src="js/script.js"></script>
+</html>

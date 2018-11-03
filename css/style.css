@@ -1,0 +1,19 @@
+#box {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+#box span {
+	display: inline-block;
+	width: 80px;
+}
+#box #submit {
+	position: relative;
+	left: 150px;
+	top: 8px;
+	width: 100px;
+	padding: 10px;
+}
+select {
+	width: 80px;
+}
